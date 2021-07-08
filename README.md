@@ -28,8 +28,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/HyoJuns/profile-card-component-main)
+- Live Site URL: [Add live site URL here](https://hyojuns.github.io/profile-card-component-main/)
 
 ## My process
 
@@ -45,6 +45,6 @@ FlexBOX
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [HyoJuns](https://github.com/HyoJuns/profile-card-component-main)
+- Frontend Mentor - [@HyoJuns](https://www.frontendmentor.io/profile/HyoJuns)
+
