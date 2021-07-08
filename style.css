@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root
+{
+    --main-bg-color : hsl(185, 75%, 39%);
+    --heading : hsl(229, 23%, 23%);
+    --line : hsl(227, 10%, 46%);
+    --text-color : hsl(0, 0%, 59%);
+}
+
+*,
+*::before,
+*::after
+{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.8rem;
+
+    background-color: var(--main-bg-color);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    position : relative;
+}
+.bg-pattern-top
+{
+    width: 97.9rem;
+    height: 97.8rem;
+
+    display: block;
+    background-image: url(./images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    /* outline: 2px solid thistle; */
+    
+    position : fixed;
+    top : -55rem;
+    left : -55rem;
+    z-index: -1;
+}
+.bg-pattern-bottom
+{
+    width: 97.8rem;
+    height: 97.8rem;
+
+    display: block;
+    background-image: url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    /* outline: 2px solid thistle; */
+
+    position : fixed;
+    bottom : -55rem;
+    right : -55rem;
+    z-index: -1;
+}
+
+.warpper
+{
+    width: 36rem;
+    height: 40rem;
+
+    
+}
+
+.card-container
+{
+    width: 100%;
+    height: 100%;
+
+    /* outline: 4px dashed darkviolet; */
+
+    border-radius: 2.5rem;
+
+    background-color: white;
+
+    position : relative;
+
+    overflow: hidden;
+
+    box-shadow: .1rem .5rem 1.2rem #222;
+}
+
+.card-header
+{
+    width: 100%;
+    height: 15rem;
+
+    background-image: url(./images/bg-pattern-card.svg);
+
+    position: relative;
+}
+.card-header figure
+{
+    position: absolute;
+
+    bottom : -5.5rem;
+    left : 50%;
+    transform: translateX(-50%);
+}
+.card-header figure > img
+{
+    border-radius: 50%;
+    border : 5px solid #fff;
+}
+
+.card-content
+{
+    width: 100%;
+    height: 15rem;
+
+    /* outline: 3px solid pink; */
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-top : 6rem;
+}
+
+.card-profile-name
+{
+    font-size: 2.2rem;
+    color : var(--heading);
+
+    line-height: 1;
+    padding-bottom: 1.5rem;
+}
+
+.card-profile-name > .card-profile-age
+{
+    font-size: 2.0rem;
+    font-weight: 400;
+    color : var(--text-color);
+}
+
+.card-profile-city
+{
+    font-size: 1.8rem;
+    color : var(--text-color);
+
+    padding-bottom: 3rem;
+}
+
+.card-footer
+{
+    width: 100%;
+    height: 10rem;
+
+    border-top : 1px solid hsla(0,0%,59%,0.4);
+
+    display: flex;
+
+    padding : 2rem 4rem;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-profile-info
+{
+    text-align: center;
+}
+.card-profile-info-heading
+{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color : var(--heading);
+}
+
+.card-profile-info-description
+{
+    font-size: 1.5rem;
+    color : var(--text-color);
+    line-height: 2;
+    letter-spacing: .1rem;
+}
